@@ -1,8 +1,10 @@
 """Restful API."""
 
 from __future__ import absolute_import
+
 from Sample.core import OpenWeatherMap
 from flask import Flask, request, jsonify
+
 
 app = Flask(__name__)
 client = OpenWeatherMap()
