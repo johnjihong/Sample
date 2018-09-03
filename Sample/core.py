@@ -72,3 +72,6 @@ class OpenWeatherMap:
         else:
             logger.info(weather)
         return data
+    
+    
+    asd
